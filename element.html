@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="title" content="html and  css website">
+    <meta name="description" content="create a static website using html and css">
+    <meta name="keywords" content="website, html, css, static website, frontend design,">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Obaedul Islam">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HTML & CSS Basic Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <base href="https://www.w3schools.com/" target="_blank"> -->
+
+    <style>
+        .int-css{
+            font-size:18px;
+            font-family:fantasy;
+            font-weight: 600;
+            letter-spacing: 1px;
+            word-spacing: 8px;
+            color:#111111;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="home-section">
+        <div class="home-nav">
+            <ul>
+                <li class="home-area"><a href="index.html" >Home</a></li>
+                <li class="element-area"><a href="element.html">Fifty Element</a></li>
+            </ul>
+        </div>
+        <h1 class="html-practice"> FIFTY TAG  PRACTICE</h1>
+
+        <div class="anchor-tag">
+            <h2>1. This is "anchor(a)" TAG example: <a href="https://www.facebook.com/Obaedul-Islam-100433932103338" target="_blank">Facebook</a></h2>
+        </div>
+
+        <div class="abbr-tag">
+            <h2>2. This is "Abbr" TAG example: <span style="font-size: 16px;"><abbr title="World Wide Web"> WWW</abbr> is the abbreviation of (World Wide Web)</span></h2>
+        </div>
+
+        <div class="address-tag">
+            <h2>3. This is an "adress" TAG Example: </h2>
+            <address style="padding: 20px 5px;">
+                Name: Mohammad Obaedul Islam<br>
+                9/2, Kahan Niketon, Garden Street, Shyamoli, Dhaka-1207.<br>
+                Dhaka, Bangladesh. <br>
+                Phone: +8801830885276 <br>
+            </address>
+        </div>
+
+        <div class="area-tag">
+            <h2>4. This is an "area" TAG Example: </h2>
+            <img src="images/Work Station.jpg" alt="Workplace" usemap="#workmap" width="600" height="379">
+            <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="images/laptop.jpg">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="images/iphone.jpg">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="images/tea.jpg">
+            </map>
+        </div>
+
+        <div class="article-tag">
+            <h2>5. This is an "article" TAG Example: </h2>
+            <article>
+                <h3 style="line-height: 40px;">Iphone 10s</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam inventore blanditiis dolorum accusamus explicabo doloremque eum sit. Consequuntur molestias aliquam iusto in cumque nulla voluptate perferendis, reiciendis sequi veniam tenetur?</p>
+                <h3 style="line-height: 40px;">Samsung S20</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam inventore blanditiis dolorum accusamus explicabo doloremque eum sit. Consequuntur molestias aliquam iusto in cumque nulla voluptate perferendis, reiciendis sequi veniam tenetur?</p>
+            </article>
+        </div>
+
+        <div class="aside-tag">
+            <h2>6. This is an "aside" TAG Example: </h2>
+            <article>
+                <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officia et necessitatibus quis magnam, veniam quae praesentium fugiat eaque quaerat esse nemo dolorum! Itaque debitis, deleniti aut ipsum doloremque eligendi, inventore repellat aperiam quibusdam aliquid nisi laboriosam velit nobis dolorem ex quas minima. Nulla cumque aspernatur rem exercitationem. Cum, autem?</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nisi, distinctio, ipsa quisquam possimus animi cumque laboriosam a quae, inventore sed quaerat. Ut pariatur, voluptates quia enim soluta nulla vitae!</p>
+                </aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia corrupti eos amet. A architecto, libero ducimus laborum exercitationem nobis aut aperiam accusamus officia, voluptate quo, ullam ex animi. Nobis optio, non dolorum ut odio aliquam natus quae asperiores quasi unde et? Dicta mollitia consequuntur doloribus vitae, temporibus dolor nam quaerat, repudiandae praesentium vel id atque fuga magni, voluptatum expedita eveniet.</p>
+            </article>
+        </div>
+
+        <div class="audio-tag">
+            <h2>7. This is an "audio" TAG Example: </h2>
+            <audio controls> 
+                <source src="images/Epic orchestral.mp3">
+            </audio>
+        </div>
+
+        <div class="b-tag">
+            <p style="font-size: 25px;">8. This is "bold" TAG example: Lorem ipsum dolor <b>sit amet,(use bold tag) </b> consectetur adipisicing elit.  </p>
+        </div>
+
+        <div class="base-app">
+            <h2>9. This is a "base" TAG Example: </h2>
+            <img src="images/giphy.gif" width="100" height="70" alt="Stickman">
+            <a href="element.html">HTML base Tag</a>
+        </div>
+        
+        <div class="bdi-element">
+            <h2>10. This is a "bdi" TAG Example: </h2>
+            
+                <ul>
+                    <li><bdi class="name">Evil Steven</bdi>: 1st place</li>
+                    <li><bdi class="name">François fatale</bdi>: 2nd place</li>
+                    <li><span class="name">تیز سمی</span>: 3rd place</li>
+                    <li><bdi class="name">الرجل القوي إيان</bdi>: 4th place</li>
+                    <li><span class="name" dir="auto">تیز سمی</span>: 5th place</li>
+                </ul>
+        </div>
+
+        <div class="bdo-element">
+            <h2>11. This is a "bdo" TAG Example: </h2>
+            <p>This paragraph will go left-to-right.</p>  
+            <p><bdo dir="rtl"> paragraph will go right-to-left.</bdo></p>  
+
+        </div>
+        <div class="blockquote-element">
+            <h2>12. This is a "blockquote" TAG Example: </h2>
+            <blockquote cite="https://www.lipsum.com/">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, et non animi odio optio, ex quos at maiores sed ullam libero culpa. Exercitationem illum nesciunt sapiente quibusdam, necessitatibus asperiores vitae."</blockquote> 
+        </div>
+        <div class="body-element">
+            <h2>13. This is a "body" TAG Example: </h2>
+            <a href="element.html"><p>This is Body</p></a>
+            <h4>By click this link we see the same page. All things we see in this page is written on body tag.</h4>
+        </div>
+
+        <div class="br-element">
+            <h2>14. This is a "br" TAG Example: </h2>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Porro, at. Dolorum quae esse, repellendus expedita<br> similique rem optio ullam, assumenda ipsum illo, earum consectetur <br> sint repudiandae adipisci perspiciatis eius iure.</p>
+            <h4>This paragraph is devide by "br" tag</h4>
+        </div>
+
+        <div class="button-element">
+            <h2>15. This is a "button" TAG Example: </h2>
+          <a href="https://www.facebook.com/Obaedul-Islam-100433932103338"><button type="button" >Clik Here</button></a>  
+        </div>
+
+        <div class="canvas-element">
+            <h2>16. This is a "canvas" TAG Example: </h2>
+            <canvas id="myCanvas"> This is HTML5 canvas tag:</canvas>
+        </div>
+
+        <div class="caption-element">
+            <h2>17. This is a "caption" TAG Example: </h2>
+            <table>
+                <caption>Employe Information</caption>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Phone</th>
+                </tr>
+                <tr>
+                  <td>Monir</td>
+                  <td>name@gmail.com</td>
+                  <td>+88017647*****</td>
+                </tr>
+                <tr>
+                  <td>Kamrul</td>
+                  <td>name@gmail.com</td>
+                  <td>+88017647*****</td>
+                </tr>
+                <tr>
+                  <td>Sahid</td>
+                  <td>name@gmail.com</td>
+                  <td>+88017647*****</td>
+                </tr>
+
+              </table>
+        </div>
+        <div class="cite-element">
+            <h2>18. This is a "cite" TAG Example: </h2>
+
+             <img src="images/Habluder.jpg" width="220" height="277" alt="Habluder Jonno Programming">
+
+            <p><cite>Habluder Jonno Programming</cite> by Jhakar Mahbub.</p>
+        </div>
+        <div class="code-element">
+            <h2>19. This is a "code" TAG Example: </h2>
+            <code>"
+                body {
+                color: yellow; <br>
+                font-size: 16px; <br>
+                line-height: 1.5;
+                }
+                "
+            </code>
+        </div>
+
+        <div class="col-element">
+            <h2>20. This is a "col" TAG Example: </h2>
+            <table> 
+                <colgroup> 
+                  <col span="1" style="background-color:teal" /> 
+                  <col span="1" style="background-color:thistle" /> 
+                  <col span="1" style="background-color:chartreuse" /> 
+                  <col span="1" style="background-color:slateblue" /> 
+                </colgroup> 
+            
+                <tr> 
+                  <th>Full Name</th> 
+                  <th>AGE</th> 
+                  <th>Blood Group</th> 
+                  <th>Phone Number</th> 
+                </tr> 
+                <tr> 
+                  <td>Hasan Ali</td> 
+                  <td>25</td> 
+                  <td> A(+ve)</td> 
+                  <td>+88017647*****</td>
+                </tr> 
+                <tr> 
+                  <td>Rasel Ahmed</td> 
+                  <td>23</td> 
+                  <td> B(+ve)</td> 
+                  <td>+88017647*****</td>
+                </tr> 
+                <tr> 
+                  <td>Obaedul Islam</td> 
+                  <td>24</td> 
+                  <td> <Acr></Acr>(+ve)</td> 
+                  <td>+88017647*****</td>
+                </tr> 
+                <tr> 
+                  <td>Hasan Ali</td> 
+                  <td>25</td> 
+                  <td> A(+ve)</td> 
+                  <td>+88017647*****</td>
+                </tr> 
+
+              </table>
+        </div>
+
+        <div class="data-element">
+            <h2>21. This is a "data" TAG Example: </h2>
+            <ul>
+                <li><data value="21053">HP Laptop</data></li>
+                <li><data value="21054">DELL Laptop</data></li>
+                <li><data value="21055">ASUS Leptop</data></li>
+              </ul>
+        </div>
+
+        <div class="datalist-element">
+            <h2>22. This is a "datalist" TAG Example: </h2>
+            <form action="#" method="get">
+                <label for="product">Choose your product from the list:</label>
+                <input list="products" name="product" id="product">
+                <datalist id="products">
+                <option value="Accesoires">
+                <option value="Laptop">
+                <option value="CPU">
+                <option value="Monitor">
+                <option value="RAM">
+                </datalist>
+                <input type="submit">
+             </form>
+        </div>
+
+        <div class="dd-element">
+            <h2>23. This is a "dd" TAG Example: </h2>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
+        </div>
+
+        <div class="del-element">
+            <h2>24. This is a "delete" TAG Example: </h2>
+            <p>Lorem, ipsum dolor sit amet <del> consectetur adipisicing </del>elit. Iste, aliquid?</p>
+        </div>
+        
+        <div class="details-element">
+            <h2>25. This is a "delete" TAG Example: </h2>
+            <details>
+                <summary>Obaedul Islam</summary>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam consequuntur iste quos quidem incidunt, commodi deleniti vero veniam voluptate iusto amet odit, ea magnam tempora molestias rem alias provident! Nostrum, debitis eligendi quasi modi voluptates obcaecati architecto repellendus sequi nisi quis rerum non, soluta, nam laboriosam excepturi! Minus possimus, harum porro nemo atque ex blanditiis, quos fugit tenetur dicta enim labore eaque molestiae neque quas aperiam vel totam, ullam voluptates nulla cupiditate reiciendis? Sit distinctio, similique dignissimos quae vel fugit voluptas quo beatae natus, modi, sed perspiciatis soluta. Ratione rerum reiciendis ipsam, commodi ullam magni. Aliquam accusamus itaque sed dolor?</p>
+            </details>
+        </div>
+
+        <div class="dfn-element">
+            <h2>26. This is a "dfn" TAG Example: </h2>
+            <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+        </div>
+
+        <div class="dialog-element">
+            <h2>27. This is a "dialog" TAG Example: </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, rerum.</p>
+            <dialog open>
+                <p>Greetings, one and all!</p>
+            </dialog>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellendus quis? Recusandae consequuntur dolor velit.</p>
+        </div>
+
+        <div class="div-element">
+            <h2 style="padding-bottom: 30px;">28. This is a "div" TAG Example: </h2>
+            <caption >Color this area by "div" tag </caption>
+            <div></div>
+        </div>
+
+        <div class="dldt-element">
+            <h2>29. This is a "dl & dt" TAG Example: </h2>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
+        </div>
+
+        <div class="em-element">
+            <h2>30. This is a "emphasized(em)" TAG Example: </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <em style="font-weight: bold;">Consectetur ratione ea nemo quae maxime nihil eaque!</em>  Doloremque vero velit eos? Sit distinctio, <em style="font-weight: bold;">similique dignissimos quae vel!</em> fugit voluptas quo beatae natus, modi, sed perspiciatis soluta.</p>
+        </div>
+
+        <!-- <div class="embed-element">
+            <h2>31. This is a "embed" TAG Example: </h2>
+            <embed type="video/webm"src="images/Drum Play.mp4" width="600"height="400">
+        </div> -->
+
+        <div class="fieldset-element">
+            <h2>32. This is a "fieldset" TAG Example: </h2>
+            <form action="#">
+                <fieldset style="padding: 10px;">
+                 <legend>Personalia:</legend>
+                 <label for="fname">First name:</label>
+                 <input type="text" id="fname" name="fname"><br><br>
+                 <label for="lname">Last name:</label>
+                 <input type="text" id="lname" name="lname"><br><br>
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email"><br><br>
+                 <label for="birthday">Birthday:</label>
+                 <input type="date" id="birthday" name="birthday"><br><br>
+                 <input type="submit" value="Submit">
+                </fieldset>
+               </form>
+        </div>
+
+      <div class="footer-element">
+            <h2>33. This is a "footer" TAG Example: </h2>
+            <footer style="background-color: #111111; color: #fff;height: 30px; padding:20px; margin: 20px;">
+                <p>Obaedul Islam &copy; Copyright, All Right Reserve</p>
+                <a href="obaed.cse@gmail.com">obaed.cse@gmail.com</a>
+            </footer>
+        </div> 
+
+        <div class="form-element">
+            <h2>34. This is a "form" TAG Example: </h2>
+            <form action="#">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+        <div class="h1toh6-element">
+            <h2>35. This is a "h1 to h6" heading TAG Example: </h2>
+            <div>
+                <h1>This is Heading1</h1>
+                <h2>This is Heading1</h2>
+                <h3>This is Heading1</h3>
+                <h4>This is Heading1</h4>
+                <h5>This is Heading1</h5>
+                <h6>This is Heading1</h6>
+            </div>
+        </div>
+
+        <div class="header-element">
+            <h2>36. This is a "header" TAG Example: </h2>
+            <div class="header">
+                <a href="#default" class="logo">Logo</a>
+                <div class="header-right">
+                  <a class="active" href="#home">Home</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#about">About</a>
+                </div>
+            </div>
+        </div>
+        <div class="hr-element">
+            <h2>37. This is a "hr" TAG Example: </h2>
+            <h3 style="padding:10px ;">"hr" tag used to devide section by creating a bottom border--</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis velit eveniet exercitationem quod optio fugit eaque deserunt eius magnam facere.</p>
+
+            <hr>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id repudiandae error, nesciunt animi alias tenetur, quibusdam, necessitatibus iure et est blanditiis! Dignissimos laboriosam dicta quae autem inventore, veritatis amet perferendis placeat magnam ut debitis ab fugiat enim reiciendis deserunt blanditiis!</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quam nulla dolore ipsa, hic quae illum beatae delectus tempore repellat, eius possimus odio quidem.</p>
+            
+        </div>
+
+        <div class="iframe-element">
+            <h2>38. This is a "iframe" TAG Example: </h2>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/sra_H9o7pjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="ins-element">
+            <h2>39. This is a "ins" TAG Example: </h2>
+           <p style="text-align: center; font-size: 20px;line-height: 30px;">I live in  <del>Cumilla</del> <ins>Dhaka</ins>!</p>
+        </div>
+        
+        <div class="kbd-element">
+            <h2>40. This is a "kbd" TAG Example: </h2>
+            <p>Press "<kbd>Alt</kbd> + <kbd>Left arrow</kbd>" to Go back.  </p>
+            <p>Press "<kbd>Ctrl </kbd> + <kbd>Z</kbd>" to Undo an Action</p>
+        </div>
+
+        <div class="label-element">
+            <h2>41. This is a "label" TAG Example: </h2>         
+            <form action="#">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male"><br>
+                <label for="female">Female</label>
+                <input type="radio" name="gender"value="female"><br>
+                <label for="other">Other</label>
+                <input type="radio" name="gender"value="other"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="legend-element">
+            <h2>42. This is a "legend" TAG Example: </h2>   
+            <form action="#">
+                <fieldset>
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label>
+                  <input type="text" id="fname" name="fname"><br><br>
+                  <label for="lname">Last name:</label>
+                  <input type="text" id="lname" name="lname"><br><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email"><br><br>
+                  <label for="birthday">Birthday:</label>
+                  <input type="date" id="birthday" name="birthday"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+        </div>
+
+        <div class="li-element">
+            <h2 style="padding-bottom:20px;">43. This is a "li" TAG Example: </h2> 
+            <p>The ol element defines an ordered list:</p>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+
+            <p style="margin-top: 20px;">The ul element defines an unordered list:</p>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul> 
+        </div>
+
+        
+        <div class="main-element">
+            <h2 style="padding-bottom:20px;">44. This is a "main" TAG Example: </h2> 
+
+            <main>
+                <h1>JavaScript Tutorial 2021</h1>
+                <p style="margin-bottom: 20px;">JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+              
+                <article>
+                  <h2>JavaScript first steps</h2>
+                  <p>Head over to our Learning Area JavaScript topic if you want to learn JavaScript but have no previous experience with JavaScript or programming. The complete modules available there are as follows:</p>
+                </article>
+              
+                <article>
+                  <h2>JavaScript building blocks</h2>
+                  <p>Continues our coverage of JavaScript's key fundamental features, turning our attention to commonly-encountered types of code blocks such as conditional statements, loops, functions, and events.</p>
+                </article>
+              
+                <article>
+                  <h2>Introducing JavaScript objects</h2>
+                  <p>The object-oriented nature of JavaScript is important to understand if you want to go further with your knowledge of the language and write more efficient code, therefore we've provided this module to help you.</p>
+                </article>
+              </main>
+        </div>
+
+        <div class="mark-element">
+            <h2 style="padding-bottom:20px;">45. This is a "mark" TAG Example: </h2> 
+            <p>The standard for JavaScript is <mark>ECMAScript.</mark>  As of 2012,</p>
+        </div>
+        
+
+        <div class="meter-element">
+            <h2 style="padding-bottom:20px;">46. This is a "meter" TAG Example: </h2>
+            <p>The meter element is used to display a gauge:</p>
+            <label for="disk_c">Disk usage C:</label>
+            <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+            <label for="disk_d">Disk usage D:</label>
+            <meter id="disk_d" value="0.6">60%</meter>
+            </div>
+
+        <div class="nav-element">
+            <h2 style="padding-bottom:20px;">47. This is a "nav" TAG Example: </h2>
+            <nav>
+                <a href="#">HTML</a> 
+                <a href="#">CSS</a> 
+                <a href="#">JavaScript</a> 
+                <a href="#">Python</a>
+            </nav>
+        </div>
+
+        <div class="object-element">
+            <h2 style="padding-bottom:20px;">48. This is a "object" TAG Example: </h2>
+            <object data="images/giphy.gif" width="300" height="200"></object>
+        </div>
+
+        <div class="optgroup-element">
+            <h2 style="padding-bottom:20px;">49. This is a "optgroup" TAG Example: </h2>
+            <form action="#">
+                <p style="margin-bottom: 10px;">The optgroup tag is used to group related options in a drop-down list: </p>
+                <label for="cars"><strong> Choose a car:</strong></label>
+                <select name="cars" id="cars">
+                  <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                  </optgroup>
+                  <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </optgroup>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+
+        <div class="option-element">
+            <h2 style="padding-bottom:20px;">50. This is a "option" TAG Example: </h2>
+            <label for="cars">Choose a car:</label>
+            <select id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(20, 20, 75, 50);
+    
+    ctx.globalAlpha = 0.2;
+    ctx.fillStyle = "blue"; 
+    ctx.fillRect(50, 50, 75, 50); 
+    ctx.fillStyle = "green"; 
+    ctx.fillRect(80, 80, 75, 50);
+    </script>
+</body>
+</html>

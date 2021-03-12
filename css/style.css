@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+.home-nav{
+    border-bottom: 5px dotted #083313;
+    padding-bottom: 7px;
+}
+
+.home-section .home-nav ul {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.home-section .home-nav ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: #17132e;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 12px 17px -3px black;
+    transition: .5s;
+}
+.home-section .home-nav ul li a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.home-section .home-nav ul li:hover{
+    background-color: #083313;
+}
+.html-practice{
+    text-align: center; 
+    margin-top: 15px;
+    font-size: 25px; 
+    background-color: darkred;
+    color: #fff;
+    padding: 10px 0px; 
+    cursor: pointer;
+    letter-spacing: 8px;
+     word-spacing: 25px;
+}
+/** Start Image Section**/
+.home-section .img-altr{
+    width: 100%;
+}
+.same-head{
+    font-size: 23px;
+    margin:50px 0px 0px 50px;
+    color: #17132e;
+    font-weight: bolder;
+}
+.home-section .img-altr img{
+    width: 44.5%;
+    padding: 10px 30px 10px 30px;
+}
+/** End Image Section**/
+
+/** Start Links**/
+.link-type  ul {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.link-type ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: #083313;
+    width: 150px;
+    margin: 0px 30px 0px 30px;
+    box-shadow: 0 8px 17px -3px black;
+    transition: .5s;
+} 
+.link-type ul li a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.link-type ul li:hover{
+    background-color: #35363A;
+    color: #fff;
+}
+
+/**End Links**/
+
+
+/** Start H1 to H6 **/
+
+.seo-element .h1toh6{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+    height: 200px;
+    line-height: 28px;
+}
+.seo-element .h1toh6 p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 5px;
+}
+/* Start Paragraph */
+
+.paragraph{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+    height: 200px;
+}
+.paragraph img{
+    margin-top: 20px;
+}
+.paragraph .pelement{
+    line-height: 27px;
+}
+.pCaption{
+    text-align: center; 
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+/** Speed Optimization **/
+.image-optimize{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+    height: 400px;
+}
+.image-optimize img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.video-optimize{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+    height: 400px;
+}
+
+.audio-optimize{
+    width: 41%;
+    margin: 0 auto;
+    border: 2px dotted #083313;
+    padding: 20px;
+    height: 60px;
+    overflow: hidden;
+    
+}
+.audio-optimize audio{
+    width: 100%;
+}
+
+/* Start CSS Section **/
+.css-section{
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+.css-section > h1{
+    text-align: center; 
+    margin-top: 15px;
+    font-size: 25px; 
+    background-color: darkred;
+    color: #fff;
+    padding: 10px 0px; 
+    cursor: pointer;
+    letter-spacing: 8px;
+     word-spacing: 25px;
+}
+
+.css-section .inline-css{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+}
+.css-section .internal-css{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+}
+.css-section .external-css{
+    width: 41%;
+    margin: 0 auto;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    overflow: hidden;
+
+}
+.css-section .external-css .ext-css{
+    font-size:20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color:#111111;
+}
+/* Selector Section*/
+.selector-section .tag-css{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+
+}
+.selector-section .tag-css p{
+    font-family:monospace;
+    font-size: 20px;
+    color: #17132e;
+    background: lightgreen;
+}
+.selector-section .class-css{
+    width: 41%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    float: left;
+}
+.selector-section p.style-class{
+    font-family:fantasy;
+    font-size: 20px;
+    color: #17132e;
+    background:yellow;
+    word-spacing: 10px;
+}
+
+.css-section .id-css{
+    width: 41%;
+    margin: 0 auto;
+    border: 2px dotted #083313;
+    padding: 20px;
+    list-style: circle;
+    overflow: hidden;
+
+}
+.css-section .id-css p#style-id{
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #111111;
+}
+
+/* Measurement CSS */
+.css-section .measurement-section .mes-css{
+    width: 91%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+}
+.css-section .measurement-section .mes-css p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+/* Color CSS */
+.css-section .color-section .color-css{
+    width: 91%;
+    margin: 30px;
+    border: 2px dotted #083313;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+}
+.css-section .color-section .color-css p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
+/** ==============FFTY ELEMENT OR TAG START ================**/
+.home-section{
+    margin-bottom: 20px;
+}
+.home-section .anchor-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .abbr-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .address-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .area-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+    height: 450px;
+}
+.home-section .area-tag img{
+    margin-top: 20px;
+}
+.home-section .article-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .aside-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+    height: 200px;
+}
+.home-section .aside-tag aside {
+    width: 40%;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 0px 5px;
+  }
+  .home-section .audio-tag {
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+  }
+  .home-section .audio-tag audio{
+      width: 100%;
+  }
+  .home-section .b-tag{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .base-app{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .bdi-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .bdo-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .blockquote-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .body-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+blockquote {
+    display: block;
+    margin: 15px 50px 15px 50px ;
+}
+.home-section .br-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .button-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .button-element button{
+    background-color: #111111;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.home-section .button-element button:hover{
+    background-color: olivedrab;
+    color: #111111;
+    border-radius: 10px;
+}
+.home-section .canvas-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .caption-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .caption-element table{
+    margin-top: 20px;
+}
+.home-section .caption-element table, tr, th,td
+{
+    border: 1px solid #35363A;
+    padding: 5px;
+}
+.home-section .cite-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .code-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .code-element code{
+    background:violet;
+}
+
+.home-section .col-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .data-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .data-element ul{
+    margin-top:20px;
+    padding: 10px 30px;
+}
+.home-section .datalist-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .dd-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .dd-element dl{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.home-section .del-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .details-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .dfn-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .dialog-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+    height: 100px;
+}
+.home-section .dialog-element dialog{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.home-section .div-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .div-element div{
+    width: 300px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+.home-section .dldt-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .em-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .embed-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .fieldset-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .footer-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .form-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .form-element form{
+    margin-top: 20px;
+}
+.home-section .h1toh6-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .h1toh6-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .header-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .header-element .header {
+    overflow: hidden;
+    background-color: #723b3b;
+    padding: 20px 10px;
+  }
+
+  .home-section .header-element .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .home-section .header-element .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .home-section .header-element .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .home-section .header-element .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .home-section .header-element .header-right {
+    float: right;
+  }
+
+  .home-section .hr-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .hr-element p{
+    line-height: 25px;
+}
+
+.home-section .iframe-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .ins-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .kbd-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .label-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .legend-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .legend-element fieldset{
+    border: 2px dotted #17132e;
+    margin:30px;
+
+    padding: 10px 40px;
+}
+.home-section .li-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .li-element ol,ul{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.home-section .main-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .main-element article{
+    margin-bottom: 20px;
+}
+.home-section .mark-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .meter-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .nav-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px 20px;
+}
+.home-section .nav-element nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 28px;
+    color: #fff;
+    background-color: #17132e;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+.home-section .nav-element nav a:hover{
+    border: 3px solid #17132e;
+    background-color: #ddd;
+    color: black;
+}
+
+.home-section .object-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .optgroup-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
+.home-section .option-element{
+    border: 2px solid #17132e;
+    margin-top:20px;
+    padding: 10px 10px;
+}
